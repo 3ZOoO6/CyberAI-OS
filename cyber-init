@@ -1,0 +1,30 @@
+#!/bin/bash
+
+# cyber-init: إعداد البيئة التطويرية
+
+function setup_environment() {
+    echo "[+] Installing dependencies..."
+    apt-get update && apt-get install -y \
+        git python3 nodejs docker.io \
+        metasploit-framework aircrack-ng
+    
+    echo "[+] Cloning repositories..."
+    git clone https://github.com/Abdulaziz-Cyber/CyberAI-OS.git
+    
+    echo "[+] Configuring APIs..."
+    read -p "Enter Gemini API Key: " gemini_key
+    echo "API_KEYS = { 'gemini': '$gemini_key' }" > config.py
+    
+    echo "[+] Building Docker images..."
+    docker build -t cyberai/kali -f docker/kali.Dockerfile .
+    
+    echo "[✓] Setup completed! Run 'cyber run ai' to start."
+}
+
+# التحقق من صلاحيات root
+if [ "$EUID" -ne 0 ]; then
+    echo "[-] Please run as root (sudo cyber-init)"
+    exit 1
+fi
+
+setup_environment
