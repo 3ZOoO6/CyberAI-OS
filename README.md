@@ -1,9 +1,10 @@
-
 # CyberAI OS
 
-![banner](./docs/images/banner.png)
+![CyberAI OS Banner](./images/cyberai-poster.png)
 
 **CyberAI OS** هو نظام موحد متكامل يدمج الذكاء الاصطناعي، الأمن السيبراني، أدوات تطوير المشاريع، واختبار الاختراق، في مشروع واحد شامل قابل للتوسع، مصمم ليعمل بكفاءة على الهواتف وأجهزة Linux (مثل Kali وTermux) بدون الحاجة لحاسوب.
+
+---
 
 ## الميزات الرئيسية:
 
@@ -14,6 +15,28 @@
 - تكامل مع GitHub, Vercel, Docker, Termux.
 - سكربتات CLI ذكية للأوامر (مثل cyber init, cyber run ai...).
 - دعم تلقائي لملفات JSON (bots.json, apps.json).
+
+---
+
+## فيديو تعريفي
+
+**سكريبت الصوت للفيديو الترويجي:**
+
+> تخيل نظام واحد...  
+> يجمع بين الذكاء الاصطناعي، الأمن السيبراني، أدوات المطورين، وحتى اختبار الاختراق.  
+>  
+> هذا هو CyberAI OS.  
+>  
+> يدعم Linux وTermux، بدون ما تحتاج حتى حاسوب!  
+>  
+> AI Bots ذكية، متجر تطبيقات مدمج، أدوات WIFI وHash،  
+> وتكامل جاهز مع GitHub وDocker.  
+>  
+> سطر أوامر واحد، وابدأ مشروعك السيبراني المتكامل.  
+>  
+> CyberAI OS – ابدأ المستقبل من طرف الشاشة.  
+>  
+> احصل عليه الآن من GitHub.
 
 ---
 
@@ -35,53 +58,28 @@ CyberAI-OS/
 ├── loadBots.js             # سكربت تحميل البوتات تلقائيًا
 ├── chat.html               # صفحة محادثة AI
 ├── yagil.html              # واجهة إضافية
-
-
----
-
-صور من الواجهة:
-
-الصفحة الرئيسية
-
-
-
-نظام البوتات
-
-
-
-متجر التطبيقات الذكي
-
-
-
+```
 
 ---
 
-التثبيت (على Kali أو Termux)
+## التثبيت (على Kali أو Termux)
 
+```bash
 git clone https://github.com/3ZOoO6/CyberAI-OS.git
 cd CyberAI-OS
 bash cyber-init          # أو استخدام السكربت sor.sh
-
-
----
-
-روابط التواصل
-
-GitHub: 3ZOoO6
-
-Snapchat: bx90_9
-
-Instagram: goli_soltani.412246
-
-
+```
 
 ---
 
-الترخيص
+## تواصل معنا
+
+- **GitHub:** [3ZOoO6](https://github.com/3ZOoO6)
+- **Snapchat:** bx90_9
+- **Instagram:** goli_soltani.412246
+
+---
+
+## الترخيص
 
 MIT License © Abdulaziz 2025
-
----
-
-هل ترغب أضيفه مباشرة داخل `README.md` ثم أدفعه إلى GitHub لك؟ أم تريده ملف مستقل أول؟
-
